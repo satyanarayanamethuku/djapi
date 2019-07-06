@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+    body{
+        background-image: url("{% static 'images/abc.jpg' %}");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h1{
+        text-align: center;
+        background-color: red;
+        border: 2px solid pink;
+       
+    }
+    .container, jumbotron
+    {
+        margin:60px;
+    }
+</style>
+</head>
+<body>
+    <h1>well come to satya jobs</h1>
+    <div class="container" align="center">
+            <div class="jumbotron">
+             <h2>well come to jobs portal</h2><br>
+             <a href="/hyd" class="btn btn-info" role="button">hyderabad</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="#" class="btn btn-primary" role="button">bangalore</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <a href="#" class="btn btn-success" role="button">chennai</a>
+              
+            </div>
+           
+    </div>
+</body>
+</html>
